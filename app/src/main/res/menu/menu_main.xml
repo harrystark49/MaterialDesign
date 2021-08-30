@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="settings"
+        app:showAsAction="always"
+        android:icon="@drawable/settings"
+        android:id="@+id/save">
+    </item>
+    <item android:title="delete"
+        android:id="@+id/delete"
+        app:showAsAction="always"
+        android:icon="@drawable/save">
+    </item>
+    <group >
+        <item android:title="save1"
+            app:showAsAction="never"
+            android:icon="@drawable/settings"
+            android:id="@+id/save1"></item>
+
+        <item android:title="save2"
+            app:showAsAction="never"
+            android:icon="@drawable/settings"
+            android:id="@+id/save2"></item>
+    </group>
+    <item android:title="email"
+        app:showAsAction="never"
+        android:id="@+id/email"
+        ></item>
+    <item android:title="name"
+        app:showAsAction="never"
+        android:id="@+id/name"></item>
+</menu>
